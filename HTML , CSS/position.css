@@ -1,0 +1,48 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* #box1{
+    position: static;
+    top: 10px; /* ---> there is no change in box because the poiston is static */
+    /* left: 10px;
+}
+
+#box2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+#box3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+#box4{
+    position: fixed;
+    top: 0px;
+}
+
+#box5{
+    position: sticky;
+    top: 0px;
+    left: 30px;
+    z-index: 2;
+}  */
+
+#box1{
+    background-image: url("KH\ Notes\ Poster.png");
+    background-size: cover;
+}
+#box2{
+    background-image: url("photo-1686903430777-279ba0f25e7f.avif");
+    background-size: cover;
+}

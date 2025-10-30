@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border: 2px solid black;
+        }
+
+        #container{
+            width: 500px;
+            height: 100px;
+            display: flex;
+            /*flex-direction: row;   -----> By default left to right */
+            /*flex-direction: row-reverse;  ---->  Right to Left*/
+            /* flex-direction: column; ----> Top to Bottom*/
+            /* flex-direction: column-reverse;  ----> Bottom to Top */
+            /* justify-content: flex-end; */
+            /* justify-content: space-around; */
+            /* justify-content: center; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-between; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: wrap; */
+            /* align-items: center; */
+            /* align-items: flex-start; */
+            /* align-content: flex-start; */
+        }
+
+        #box1{
+            background-color: aqua;
+            color: black;
+        }
+
+        #box2{
+            background-color: brown;
+            /* height: 200px; */
+            flex-shrink: 5;
+        }
+        
+        #box3{
+            background-color: chartreuse;
+            /* height: 55px; */
+        }
+        
+        #box4{
+            background-color: crimson;
+        }
+        
+        #box5{
+            background-color: steelblue;
+            /* align-self: flex-end; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Playground</h1>
+    <div id="container">
+        <div id="box1">Box 1</div>
+        <div id="box2">Box 2</div>
+        <div id="box3">Box 3</div>
+        <div id="box4">Box 4</div>
+        <div id="box5">Box 5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+h1{
+    height: 40px;
+    width: 200px;
+    background-color: cyan;
+    /* border: 3px;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0); */
+
+    /* Inshort or Shorthand Border  */
+    border: 4px dashed red;
+    text-align: center;
+}
+div{
+    height: 16px;
+    width: 200px;
+    background-color: rgb(236, 63, 184);
+    border: 5px;
+    border-style: groove;
+    border-color: chartreuse;
+    /* padding-left: 40px;
+    padding-right:20px;
+    padding-top:30px;
+    padding-bottom:30px; */
+
+    /* Shorthand Padding  --->  Top|Right|Bottom|Left {TRBL} {Clockwise} ----> Same for Margin also.... */
+    /* padding: 2px 3px 2px 3px ; */
+    padding: 25px;
+    /* margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 500px;
+    margin-bottom: auto; */
+    margin: 50px;
+}
+/* .himani{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+    text-align: center;
+}
+.karthik{
+    height: 40px;
+    width:100px;
+    background-color: cyan;
+    border-radius: 15px;
+    text-align: center;
+} */

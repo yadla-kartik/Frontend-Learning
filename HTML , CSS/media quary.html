@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Media Quary</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+        }
+
+        @media (width:600px) {
+            div{
+          background-color: aqua;
+            }
+        }
+
+        @media (max-width:500px) {
+            div{
+           background-color: brown;
+            }
+        }
+
+        @media (min-width:200px) and (max-width:300px) {
+         div{
+           background-color: blue;
+         }   
+        }
+    </style>
+</head>
+<body>
+    <h1> Media Quary</h1>
+    <div></div>
+</body>
+</html>
